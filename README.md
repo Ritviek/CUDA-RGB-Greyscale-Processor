@@ -37,7 +37,7 @@ Paste this into a new code cell, it should execute in about 30-40 seconds:
 
 ```bash
 # Clone repo and execute
-!git clone https://github.com/NadG17/cuda-image-grayscale-converter.git
+!git clone https://github.com/Ritviek/cuda-image-grayscale-converter.git
 %cd cuda-image-grayscale-converter
 !chmod +x run.sh && ./run.sh
 ```

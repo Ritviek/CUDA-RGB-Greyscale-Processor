@@ -158,7 +158,7 @@ create_log() {
     print_status "Creating execution log..."
 
     {
-        echo "CUDA RGB to Greyscale Image Processor - Execution Log"
+        echo "CUDA Image Grayscale Converter - Execution Log"
         echo "Execution Date: $(date)"
         echo "Environment: $(if [ $IN_COLAB -eq 1 ]; then echo 'Google Colab'; else echo 'Local System'; fi)"
         echo ""
@@ -196,7 +196,7 @@ create_performance_report() {
 
 main() {
     echo "=============================================="
-    echo "CUDA RGB to Greyscale Image Processor"
+    echo "CUDA Image Grayscale Converter"
     echo "=============================================="
 
     check_colab

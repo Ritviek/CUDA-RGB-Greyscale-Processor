@@ -1,5 +1,3 @@
-# Makefile for CUDA RGB to Greyscale Image Processor
-
 # Compiler and flags
 NVCC = nvcc
 CXX = g++
